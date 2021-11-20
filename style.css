@@ -1,0 +1,59 @@
+h1,
+h2 {
+  font-family: sans-serif;
+}
+header {
+  margin-top: 40px;
+  margin-bottom: 50px;
+  display: flex;
+  font-weight: 700;
+  justify-content: space-between;
+  line-height: 1.6;
+  position: relative;
+  color: aliceblue;
+}
+article {
+  margin-left: 40px;
+  line-height: 1.6;
+  width: 1200px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: aliceblue;
+}
+h1 {
+  font-size: 45px;
+}
+p {
+  font-size: 20px;
+}
+div {
+  margin: 0 auto;
+  width: 1200px;
+}
+.aa:link,
+.aa:visited {
+  font-size: 20px;
+  font-weight: 600;
+  background-color: #1098ad;
+  color: azure;
+  text-decoration: none;
+  display: inline-block;
+  padding: 16px 32px;
+  border-radius: 9px;
+}
+.am {
+  width: 50%;
+  margin-left: 10px;
+  margin-top: 200px;
+}
+body {
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.555),
+      rgba(10, 10, 10, 0.527)
+    ),
+    url(https://th.bing.com/th/id/OIP.KcDDuxChxKbp_rS4wGGkNwHaEK?pid=ImgDet&rs=1);
+  background-size: cover;
+  margin-left: 50px;
+}
